@@ -13,9 +13,10 @@
 ``` bash
 # 安装依赖
 npm install 
-
-# 服务端运行访问localhost:8080
-node server.js
+# 客户端运行访问localhost:8989
+控制台进入项目根目录下输入：npm run dev
+# 服务端运行,控制台进入server/bin目录下输入:
+node www
 
 # build for production and view the bundle analyzer report
 npm run build --report
